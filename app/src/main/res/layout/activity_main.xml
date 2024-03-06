@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Beige"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Upgrade Your Doggy Daycare Experience!"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/Razzmatazz"
+        android:fontFamily="@font/bebas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/freeButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <TextView
+        android:id="@+id/planText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:text="Choose your plan"
+        android:textSize="25dp"
+        android:textColor="@color/Onyx"
+        app:layout_constraintBottom_toTopOf="@+id/freeButton"
+        app:layout_constraintStart_toStartOf="@+id/title"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/endorsementText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Endorsed by Scooby Doo"
+        android:layout_marginTop="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/payButton" />
+
+    <Button
+        android:id="@+id/freeButton"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:background="@drawable/btn_shape_round"
+        android:text="Membership&#10;&#10;Anytime access to the daycare center in Dogtopia!"
+        android:textAlignment="viewStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.538" />
+
+    <Button
+        android:id="@+id/payButton"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_shape_round"
+        android:text="Lifetime Premium&#10;&#10;All membership features plus free limo rides through the dog park!"
+        android:textAlignment="viewStart"
+        android:textColor="@color/NaplesYellow"
+        app:layout_constraintEnd_toEndOf="@+id/freeButton"
+        app:layout_constraintStart_toStartOf="@+id/freeButton"
+        app:layout_constraintTop_toBottomOf="@+id/freeButton" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="154dp"
+        android:layout_height="157dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/freeButton"
+        app:layout_constraintEnd_toEndOf="@+id/freeButton"
+        app:srcCompat="@drawable/dogicon" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/xcircle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

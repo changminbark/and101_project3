@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="CobaltBlue" hex="1446a0" r="20" g="70" b="160">#1446a0</color>
+    <color name="Razzmatazz" hex="db3069" r="219" g="48" b="105">#db3069</color>
+    <color name="NaplesYellow" hex="f5d547" r="245" g="213" b="71">#f5d547</color>
+    <color name="Beige" hex="ebebd3" r="235" g="235" b="211">#ebebd3</color>
+    <color name="Onyx" hex="3c3c3b" r="60" g="60" b="59">#3c3c3b</color>
+</resources>
